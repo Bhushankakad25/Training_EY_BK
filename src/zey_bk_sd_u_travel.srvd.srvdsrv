@@ -1,0 +1,6 @@
+@EndUserText.label: 'Unmanaged Travel'
+define service Zey_bk_sd_u_travel {
+  expose zey_bk_U_TRAVEL   as Travel;
+  expose ZEY_BK_U_CUSTOMER as Customer;
+  expose ZEY_BK_U_AGENCY   as Agency;
+}
